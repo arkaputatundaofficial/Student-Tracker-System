@@ -8,10 +8,10 @@ const { getLocalIP } = require("./utils/network");
 const app = express();
 const PORT = 3000;
 const SUPABASE_URL =
-  process.env.SUPABASE_URL || "https://yurrdolffqsvkzwihhgo.supabase.co";
+  process.env.SUPABASE_URL || "YOUR_SUPABASE_BASE_URL";
 const SUPABASE_KEY =
   process.env.SUPABASE_ANON_KEY ||
-  "sb_publishable_Y5_5drrwfyxjFsWn9laEkw_5cYwbI2J";
+  "YOUR_SUPABASE_ANON_KEY";
 
 /*
 -----------------------------------
